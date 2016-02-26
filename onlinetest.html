@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+<title>Online Test</title>
+</head>
+<body>
+<div id="main" class="container">
+    <div class="jumbotron">
+      <div class="row"><h1>Online Test <small>Jiaming Dong</small></h1> </div>
+    </div>
+    <div class="row">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Online Test</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">PHP Test</a></li>
+              <li><a href="#">Javascript Test</a></li> 
+              <li><a href="#">SQL Test</a></li> 
+            </ul>
+          </div>
+        </nav>
+    </div>
+    <div class="row">
+      <div class="panel panel-primary">
+        <div id="question_content" class="panel-heading">Welcome to the online test!</div>
+        <div id="choices_box" class="panel-body">You'll have 10 questions to answer.</div>
+      </div>
+    </div>
+    <div class="row">
+      <button id="submit_answer_btn" class="btn btn-primary">Start Testing</button>
+    </div>
+      <br/>
+    <div class="row">
+      <div class="panel panel-default">
+        <div id="countdown" class="panel-body"></div>
+      </div>
+    </div>
+</div>
+</body>
+</html>

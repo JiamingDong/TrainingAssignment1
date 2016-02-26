@@ -1,0 +1,61 @@
+{"name":"php", "duration":"180", "questions":[
+  	{
+  		"content":"Which one of the following is a search engine?", 
+    	"choices":["A. Google", "B. Woogle", "C. Dogpile", "D. None of the above"],
+    	"answers":["0", "2"]
+    }, 
+   	
+   	{
+   		"content":"What does PHP stand for?", 
+    	"choices":["A. PHP: Hypertext Preprocessor", "B. Personal Hypertext Processor", "C. Private Home Page"],
+    	"answers":["0"]
+    }, 
+   	
+   	{	
+   		"content":"Which superglobal variable holds information about headers, paths, and script locations?", 
+    	"choices":["A. $_GET", "B. $_SESSION", "C. $_SERVER", "D. $_GLOBALS"],
+      "answers":["2"]
+    }, 
+
+    { 
+      "content":"PHP files have a default file extension of..", 
+      "choices":["A. .html", "B. .xml", "C. .php", "D. .ph"],
+      "answers":["2"]
+    },
+
+    { 
+      "content":"Which of the following is/are a PHP code editor?", 
+      "choices":["A. Notepad", "B. Notepad++", "C. Adobe Dreamweaver", "D. PDT"],
+      "answers":["0", "1", "2", "3"]
+    },
+
+    { 
+      "content":"Which of the following must be installed on your computer so as to run PHP script?", 
+      "choices":["A. Adobe Dreamweaver", "B. PHP", "C. Apache", "D. IIS"],
+      "answers":["1", "2", "3"]
+    },
+
+    {
+      "content":"When using the POST method, variables are displayed in the URL:",
+      "choices":["A. False", "B. True"],
+      "answers":["0"]
+    },
+
+    {
+      "content":"Which of following variables can be assigned a value to it?",
+      "choices":["A. $3hello", "B. $_hello", "C. $this", "D. $This"],
+      "answers":["1", "3"]
+    },
+
+    {
+      "content":"Which of the conditional statements is/are supported by PHP?",
+      "choices":["A. if statements", "B. if-else statements", "C. if-elseif statements", "D. switch statements"],
+      "answers":["0", "1", "2", "3"]
+    },
+
+    {
+      "content":"What is the correct way to create a function in PHP?",
+      "choices":["A. new_function myFunction()", "B. function myFunction()", "C. create myFunction()"],
+      "answers":["1"]
+    }
+]}
